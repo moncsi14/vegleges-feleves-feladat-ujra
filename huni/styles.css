@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+header {
+  background-color: #516cb2;
+  color: #fffff;
+  padding: 1em 0;
+  justify-content: space-between;
+  padding: 0 1em;
+  align-items: center;
+  display: flex;
+}
+
+header .logo {
+  flex: 0;
+}
+header .logo img {
+  height: 60px;
+}
+
+menu {
+  max-width: 100%;
+  height: auto;
+}
+
+nav {
+  flex: 1;
+  justify-content: center;
+  display: flex;
+}
+
+nav a {
+  color: #fa5f06;
+  text-decoration: none;
+  margin: 30px;
+  background-color: #f4f4f4;
+  border-radius: 60px;
+  padding: 10px 20px 10px;
+  font-size: medium;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #fa5f06;
+  color: #f4f4f4;
+}
+
+.hero {
+  background-color: #516cb2;
+  color: #fff;
+  padding: 2em 1em;
+}
+
+.hero img {
+  width: 650px;
+  height: 350px;
+  display: block;
+  margin: 1em auto;
+  position: center;
+}
+.hero img {
+  max-width: 100%;
+  height: auto;
+}
+
+.title-div {
+  text-align: left;
+  position: absolute;
+  margin-left: 50px;
+  background-color: #ffffff;
+  font-family: Bowlby ONE;
+}
+
+.title-div .title {
+  color: #ffffff;
+  background-color: #fa5f06;
+  border-radius: 25px;
+  padding: 10px 20px 3px;
+  display: inline-block;
+  margin-top: -100px;
+}
+
+.best-sellers {
+  background-color: #ffffff;
+  padding: 2em 1em;
+  margin: 1em;
+  border-radius: 8px;
+  font-size: larger;
+  font-weight: bolder;
+}
+
+/* .best-sellers h2 {
+  margin-bottom: 1em;
+  color: #ffffff;
+  background-color: #fa5f06;
+  border-radius: 25px;
+  padding: 10px 20px 10px;
+  display: inline-block;
+  text-align: left;
+  margin-top: -600 px;
+
+} */
+
+/* .best-sellers {
+  text-align: left;
+} */
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.product {
+  background-color: #ffffff;
+  padding: 1em;
+  border: 3px solid #fa5f06;
+  border-radius: 30px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #fa5f06;
+  font-size: medium;
+  font-weight: bold;
+}
+.product:hover {
+  background-color: #fa5f06;
+  color: #fff;
+}
+
+.productketto {
+  background-color: #ffffff;
+  padding: 1em;
+  border: 3px solid #fa5f06;
+  border-radius: 30px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #fa5f06;
+  font-size: medium;
+  font-weight: bold;
+}
+.productharom {
+  background-color: #ffffff;
+  padding: 1em;
+  border: 3px solid #fa5f06;
+  border-radius: 30px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #fa5f06;
+  font-size: medium;
+  font-weight: bold;
+}
+product {
+  max-width: 200px;
+  height: auto;
+}
+.productketto {
+  max-width: 200px;
+  height: auto;
+}
+.productharom {
+  max-width: 200px;
+  height: auto;
+}
+
+.footer {
+  background-color: #516cb2;
+  padding: 2em 1em;
+  margin: 1em;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.elements {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.element {
+  background-color: #ffffff;
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+  color: #fa5f06;
+  font-size: medium;
+  font-weight: bold;
+}
+.footer p:first-child {
+  font-size: x-large;
+  font-weight: bold;
+}
+.footer .image-container {
+  z-index: 1;
+}
+.footer .image-container {
+  max-width: 150px;
+  height: auto;
+}
+
+.footer .image {
+  max-width: 150px; /* Adjust the size of the image */
+  height: auto;
+}
+
+@media screen and (max-width: 550px) {
+  .footer p {
+    font-size: smaller;
+  }
+  element {
+    max-width: 150px;
+    height: auto;
+  }
+  title-div {
+    font-size: smaller;
+  }
+  title-div .title {
+    max-width: 100%;
+    height: auto;
+  }
+  nav a {
+    font-size: smaller;
+  }
+  best-sellers {
+    font-size: smaller;
+  }
+  product {
+    font-size: smaller;
+  }
+  productharom {
+    font-size: smaller;
+  }
+  productharom {
+    font-size: smaller;
+  }
+}
